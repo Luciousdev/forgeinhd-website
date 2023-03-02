@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000;
+    /* background-color: #333; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.replies {
+    margin-top: 30px;
+}
+
+.reply {
+    border: 1px solid #afafaf;
+    border-left: #333;
+    border-right: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #fff;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form textarea {
+    width: 50%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+}
+
+form button {
+    width: 50%;
+    background-color: #660600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+form button:hover {
+    background-color: #330300;
+}
+
+form button:active {
+    background-color: black;
+}
+
+
+/* form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form textarea {
+    max-width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f2f2f2;
+}
+
+form button {
+    max-width: 50%;
+    background-color: #660600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #330300;
+}
+
+form button:active {
+    background-color: black;
+} */
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.username {
+    font-style: italic;
+}
+
+.username:hover {
+    color: blue;
+}
+
+.date {
+    font-size: 12px;
+    color: gray;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+
+/* Add media queries for responsiveness */
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+    }
+    nav a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    form {
+        flex-wrap: wrap;
+    }
+    form textarea {
+        width: 100%;
+    }
+}

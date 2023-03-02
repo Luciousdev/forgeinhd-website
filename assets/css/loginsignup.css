@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+}
